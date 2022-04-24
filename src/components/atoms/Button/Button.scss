@@ -1,0 +1,11 @@
+.form {
+  &__submit-button {
+    padding: 10px 20px;
+    background: black;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+}
