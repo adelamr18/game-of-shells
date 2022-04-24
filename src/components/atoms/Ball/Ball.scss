@@ -1,0 +1,15 @@
+.ball {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: red;
+    opacity: 0;
+  
+    &--successful-guess {
+      opacity: 1;
+    }
+    &--begin-transition {
+      animation-name: fadeInOut;
+      animation-duration: 1.5s;
+    }
+  }
