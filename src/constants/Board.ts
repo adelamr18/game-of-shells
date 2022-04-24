@@ -1,0 +1,11 @@
+export const BOARD_WIDTH = 800;
+export const BOARD_HEIGHT = 600;
+export const EASY_LEVEL = "Easy";
+export const MEDIUM_LEVEL = "Medium";
+export const HARD_LEVEL = "Hard";
+export const EASY_MAX_MOVES = 3;
+export const MEDIUM_MAX_MOVES = 5;
+export const HARD_MAX_MOVES = 10;
+export const WIN_LABEL = "YOU WON!";
+export const WRONG_GUESS_LABEL = "SELECT ANOTHER SHELL";
+export const SELECT_LEVEL = "Select level:";
