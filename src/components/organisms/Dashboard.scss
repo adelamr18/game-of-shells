@@ -1,0 +1,30 @@
+
+.shell-element {
+  align-items: center;
+  background: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 450ms;
+  will-change: transform;
+  position: absolute;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  justify-content: center;
+}
+
+@keyframes fadeInOut {
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.form {
+  display: flex;
+  margin: 20px 0;
+}
